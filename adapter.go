@@ -30,14 +30,14 @@ func (sa *Adapter) LoadPolicy(model model.Model) error {
 	}
 	line := *(sa.policy)
 	if line == "" {
-		return errors.New("invalid line, line cannot be empty")
+		return nil
 	}
 	policies := strings.Split(line, "\n")
-	for _, str := range policies {
-		if str == "" {
+	for _, p := range policies {
+		if p == "" {
 			continue
 		}
-		persist.LoadPolicyLine(str, model)
+		persist.LoadPolicyLine(p, model)
 	}
 	return nil
 }
