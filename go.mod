@@ -1,4 +1,4 @@
-module github.com/always-farmer/string-adapter
+module github.com/ShuaiGao/string-adapter
 
 go 1.18
 

@@ -13,7 +13,7 @@ With this library:
 ## Installation
 
 ```shell
-go get github.com/always-farmer/string-adapter
+go get github.com/ShuaiGao/string-adapter
 ```
 
 ## Simple Example

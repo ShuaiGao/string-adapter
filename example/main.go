@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	sa "github.com/always-farmer/string-adapter"
+	sa "github.com/ShuaiGao/string-adapter"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
 )
